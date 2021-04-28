@@ -26,7 +26,7 @@ const routes = [
 ];
 
 const Router = new VueRouter({
-	mode: routerMode || "history",
+	// mode: routerMode || "history",
 	base: process.env.BASE_URL,
 	routes,
 	scrollBehavior(to, from, savedPosition) {
